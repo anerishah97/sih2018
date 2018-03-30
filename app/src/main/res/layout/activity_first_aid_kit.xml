@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="14dp"
+                android:id="@+id/back_emergency_kit"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_arrow_back_black_24dp" />
+
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="48dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="EMERGENCY KIT"
+                android:textColor="@color/black"
+                android:textAllCaps="true"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:text="Things to carry:"
+        android:textSize="24sp"
+        android:textColor="#000"
+            android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Water"
+        android:id="@+id/Water_txt"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="8dp"
+       />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FlashLight"
+        android:fontFamily="sans-serif-condensed"
+
+        android:id="@+id/Flashlight_txt"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Batteries"
+        android:fontFamily="sans-serif-condensed"
+
+        android:id="@+id/Batteries_txt"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+
+        android:textColor="#000"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Whistle"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+
+            android:id="@+id/whistle_txt"
+            android:layout_marginTop="8dp"
+           />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blankets"
+            android:fontFamily="sans-serif-condensed"
+
+            android:textSize="20sp"
+            android:id="@+id/blanket_txt"
+            android:layout_marginTop="8dp"
+           />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sleeping bags"
+            android:fontFamily="sans-serif-condensed"
+
+            android:textSize="20sp"
+            android:id="@+id/sleep_txt"
+            android:layout_marginTop="8dp"
+           />
+
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Map of the area "
+            android:fontFamily="sans-serif-condensed"
+
+            android:textSize="20sp"
+            android:id="@+id/map_txt"
+            android:layout_marginTop="8dp"
+           />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Extra Cash"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+
+            android:id="@+id/cash_txt"
+            android:layout_marginTop="8dp"
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emergency contact information"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+
+            android:id="@+id/emergency_txt"
+            android:layout_marginTop="8dp"
+          />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Non Perishable food"
+
+            android:fontFamily="sans-serif-condensed"
+
+            android:textSize="20sp"
+            android:id="@+id/food_txt"
+            android:layout_marginTop="8dp"
+           />
+</LinearLayout>
+</ScrollView>

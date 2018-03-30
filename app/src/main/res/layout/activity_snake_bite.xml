@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#a9a"
+    android:layout_width="350dp"
+    android:orientation="vertical"
+    android:layout_height="450dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#3E2723"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="14dp"
+            android:id="@+id/back_snake_bite"
+            android:background="#3E2723"
+
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_arrow_back_white_24dp" />
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="48dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=""
+            android:background="#3E2723"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+    </LinearLayout>
+    <ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/activity_burn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context="user.admin.com.firstaid.SnakeBite">
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:text="First Aid for Insect Bite"
+                android:textSize="32sp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:layout_marginTop="16dp"
+                />
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:text="@string/insectbite1"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                />
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:text="@string/insectbite2"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                />
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:text="@string/insectbite3"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                />
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:text="@string/insectbite4"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                />
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:text="@string/insectbite5"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                />
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:text="@string/insectbite6"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
