@@ -1,6 +1,6 @@
 # Shelter allocation and disaster management. 
 
-This project was made for the Smart India Hackathon, a problem statement by Ministry of Andaman and Nicobar to develop a software solution for optimal allocation of resources - clothes, medicines, shelter, etc during times of disaster. This project has a web solution and an Android app. The web solution can be found here: 
+This project was made for the Smart India Hackathon within 36 hours, the problem statement was provided by Ministry of Andaman and Nicobar, India was to develop a software solution for optimal allocation of resources - clothes, medicines, shelter, etc during times of disaster. This project has a web solution and an Android app. The web solution can be found here: https://github.com/MitP97/DisasterManagement
 The app had the following features: 
 
 The bottom navigation bar has the home, search, help and shelter options
